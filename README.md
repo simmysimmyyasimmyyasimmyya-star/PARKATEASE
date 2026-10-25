@@ -17,4 +17,4 @@ Tip: open two tabs (one per role). Changes sync between tabs.
 Push to `main`, then in the repo go to Settings > Pages > Source: **GitHub Actions**. The workflow in `.github/workflows/deploy.yml` builds and publishes.
 
 ## Future scope
-Supabase backend and real auth, Razorpay, Leaflet map, admin panel, Hindi/Marathi, referral tracking, QR scanning.
+Supabase backend and real auth, Razorpay, Leaflet map, admin panel, Hindi/Marathi, referral tracking, QR scanning. 
