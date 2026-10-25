@@ -1,0 +1,7 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply bg-neutral-100 text-ink font-sans}
+.checker{height:12px;background:repeating-conic-gradient(#1a1a1a 0 25%,#FFC107 0 50%) 0 0/24px 24px}
+@keyframes park{0%{transform:translateX(-40px)}60%,100%{transform:translateX(70px)}}
+.park{animation:park 2.4s ease-out infinite alternate}
+@media (prefers-reduced-motion:reduce){.park{animation:none}}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #0f766e;outline-offset:2px}
